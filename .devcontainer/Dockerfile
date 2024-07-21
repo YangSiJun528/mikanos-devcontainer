@@ -1,5 +1,6 @@
 # See here for image contents: https://github.com/sarisia/mikanos-docker
 ARG VARIANT=latest
+# ARG VARIANT=vnc
 FROM ghcr.io/sarisia/mikanos:${VARIANT}
 
 # [Optional] Uncomment this section to install additional OS packages.
